@@ -43,3 +43,5 @@ print(p2)  # __str__
 s1.add(p1, p2, p3)
 
 print(s1.get_products())
+
+print(s1._Shop__file_name)
