@@ -23,12 +23,13 @@ class WordsFinder:    #Поиск слов
 
     def find(self, word):  # поиск
         self.word = word
+        d = self.get_all_words()         # словарь - имя файла: [строки]
         dict_ = {}
-        for index, word in enumerate(self.file_name):
-            index += 1
-            i = index + 1
-            dict_[(self.file_name)] = i + 1
-            return dict_
+        value = d.get(self.file_name)
+        i = value.index(word.lower())
+        dict_[(self.file_name)] = i + 1
+
+        return dict_
 
     def count(self, word):  # cчет
         self.word = word
