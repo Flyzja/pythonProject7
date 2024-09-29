@@ -4,7 +4,7 @@ class WordsFinder:    #Поиск слов
         self.file_names = [*file_name]
         self.file_name = file_name
 
-    def get_all_words(self):           # получаем все слова
+    def get_all_words(self):           # получаем все слова в список
         self.all_words = {}
         words = []
         punctuation = [',', '.', '=', '!', '?', ';', ':', ' - ']

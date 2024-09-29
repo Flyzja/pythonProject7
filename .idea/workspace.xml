@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a1dca71-99e9-4648-9615-8123b5077064" name="Changes" comment="Оператор &quot;with&quot;">
+    <list default="true" id="0a1dca71-99e9-4648-9615-8123b5077064" name="Changes" comment="Оператор &quot;with2&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_7_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_7_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_7_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_7_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,14 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727599304582</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Оператор &quot;with2&quot;">
+      <option name="closed" value="true" />
+      <created>1727611334115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727611334115</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Режимы открытия файлов" />
     <MESSAGE value="Позиционирование в файле" />
     <MESSAGE value="Оператор &quot;with&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Оператор &quot;with&quot;" />
+    <MESSAGE value="Оператор &quot;with2&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оператор &quot;with2&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

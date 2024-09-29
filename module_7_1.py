@@ -1,6 +1,8 @@
 from pprint import pprint
 
-
+f = open('products.txt', 'w')
+pprint(f.tell())
+f.close()
 class Product:  # продукт
     def __init__(self, name, weight, category):  # название,  вес, категория
         self.name = str(name)
@@ -23,7 +25,7 @@ class Shop():  # магазин
 
     def add(self, *products):  # добавление продукта
         current_products = self.get_products()
-        file_n = open(self.__file_name, 'w', encoding='utf-8')
+        file_n = open(self.__file_name, 'a', encoding='utf-8')
         for i in products:
             if i.name not in current_products:
                 file_n.write(f"{i}\n")
@@ -38,10 +40,8 @@ p1 = Product('Potato', 50.5, 'Vegetables')
 p2 = Product('Spaghetti', 3.4, 'Groceries')
 p3 = Product('Potato', 5.5, 'Vegetables')
 
-print(p2)  # __str__
+print(p2) # __str__
 
 s1.add(p1, p2, p3)
 
 print(s1.get_products())
-
-print(s1._Shop__file_name)
