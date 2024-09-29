@@ -1,18 +1,51 @@
 class WordsFinder:    #Поиск слов
 
-    file_names = {}
-
-    def __init__(self, *name):
-        self.name = name
+    def __init__(self, *file_name):
+        self.file_names = [*file_name]
+        self.file_name = file_name
 
     def get_all_words(self):           # получаем все слова
-        all_words = {}
-        key = ['file1.txt', 'file2.txt', 'file3.txt']
-        value = ['word1', 'word2'], ['word3', 'word4'], ['word5', 'word6', 'word7']
-        with open('file1.txt', encoding='utf-8') as file:
-            
+        self.all_words = {}
+        words = []
+        punctuation = [',', '.', '=', '!', '?', ';', ':', ' - ']
+        for file_name in self.file_names:
+            with open(file_name, encoding='utf-8') as file:
+                for line in file:
+                    line = line.lower()
+                    for p in punctuation:
+                        if p in line:
+                            line = line.replace(p, ' ')
+                    sp_line = line.split(sep=' ')
+                    words.append(sp_line)
+            sort_list = [x for y in words for x in y]
+            self.all_words[self.file_name] = sort_list
+        return self.all_words
+
+    def find(self, word):  # поиск
+        self.word = word
+        dict_ = {}
+        for index, word in enumerate(self.file_name):
+            index += 1
+            i = index + 1
+            dict_[(self.file_name)] = i + 1
+            return dict_
+
+    def count(self, word):  # cчет
+        self.word = word
+        dict_ = {}
+        for index, w in self.get_all_words().items():
+            words_count = w.count(word.lower())
+            dict_[index] = words_count
+            dict_[(self.file_name)] = words_count
+        return dict_
 
 
-        return {'file1.txt': ['word1', 'word2'], 'file2.txt': ['word3', 'word4'], 'file3.txt': ['word5', 'word6', 'word7']}
+finder2 = WordsFinder('test_file.txt')
+print(finder2.get_all_words())
+print(finder2.find('TEXT'))
+print(finder2.count('teXT'))
 
-#line = line.strip()
+
+
+
+
