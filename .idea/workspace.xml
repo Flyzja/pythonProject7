@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a1dca71-99e9-4648-9615-8123b5077064" name="Changes" comment="Оператор &quot;with2&quot;">
+    <list default="true" id="0a1dca71-99e9-4648-9615-8123b5077064" name="Changes" comment="Режимы открытия файлов2">
+      <change afterPath="$PROJECT_DIR$/module_7_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_7_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_7_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_7_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_7_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     &quot;Python.module_7_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_7_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_7_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_7_4.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
@@ -154,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727611334115</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Режимы открытия файлов2">
+      <option name="closed" value="true" />
+      <created>1727638725626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727638725626</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,7 +171,8 @@
     <MESSAGE value="Позиционирование в файле" />
     <MESSAGE value="Оператор &quot;with&quot;" />
     <MESSAGE value="Оператор &quot;with2&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Оператор &quot;with2&quot;" />
+    <MESSAGE value="Режимы открытия файлов2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Режимы открытия файлов2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
