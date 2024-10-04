@@ -97,5 +97,5 @@ with open('article.txt', "r", encoding="utf-8") as file:
     for lines in file:
         print((file.seek(0)))
         textwrap = file.read()
-        d = DocumentWrapper(width=100)
+        d = DocumentWrapper(width=65)
         print(d.fill(textwrap))
